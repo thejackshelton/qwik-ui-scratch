@@ -63,3 +63,34 @@ The production build will generate client and server modules by running both cli
 ```shell
 npm run build # or `yarn build`
 ```
+
+
+```
+qwik-ui-tutorial
+├─ .eslintignore
+├─ .eslintrc.cjs
+├─ .gitignore
+├─ .prettierignore
+├─ README.md
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ favicon.svg
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ src
+│  ├─ components
+│  │  └─ router-head
+│  │     └─ router-head.tsx
+│  ├─ entry.dev.tsx
+│  ├─ entry.preview.tsx
+│  ├─ entry.ssr.tsx
+│  ├─ global.css
+│  ├─ root.tsx
+│  └─ routes
+│     ├─ index.tsx
+│     ├─ layout.tsx
+│     └─ service-worker.ts
+├─ tsconfig.json
+└─ vite.config.ts
+```
