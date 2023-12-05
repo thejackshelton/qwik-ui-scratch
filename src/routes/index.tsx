@@ -5,7 +5,7 @@ import Accordion from "~/components/accordion/accordion";
 export default component$(() => {
   return (
     <>
-      /* our component */
+      {/* our component */}
       <Accordion />
     </>
   );
